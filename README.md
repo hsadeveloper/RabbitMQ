@@ -12,6 +12,8 @@ RabbitMQ
 	- Routing key: A key that the exchange looks at to decide how to route the message to queues. 
 		Think of the routing key like an address for the message.
 	  - The routing key must be a list of words, delimited by a period (.)
+	  - A pound symbol (“#”) indicates a match of zero or more words 
+	    (e.g., a routing pattern of "agreements.eu.berlin.#" matches any routing keys beginning with "agreements.eu.berlin")
 <p> The queue is the place where messages are stored until they are consumed by the consumer, or in other ways removed from the queue.
 
  
