@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 import consumer.service.ConsumeMessageService;
 
+
 public class ConsumerConfig {
 	
 
