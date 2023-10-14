@@ -54,4 +54,14 @@ public class RabbitMQConfig {
 		return container;
 	}
 
+	@Override
+	public String toString() {
+		return "RabbitMQConfig [jsonQueues()=" + jsonQueues() + ", exchange()=" + exchange() + "]";
+	}
+	
+	
+	
+	
+	
+
 }
