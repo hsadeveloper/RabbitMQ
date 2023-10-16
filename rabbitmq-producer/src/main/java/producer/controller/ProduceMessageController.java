@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 import producer.service.ProduceMessageService;
 
 
-public class message {
 	@RestController
 	public class ProduceMessageController {
 
@@ -20,4 +19,3 @@ public class message {
 	    }
 	    
     }
-}
